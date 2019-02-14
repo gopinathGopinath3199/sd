@@ -7,13 +7,19 @@ int a;
 printf("enter the value ");
 scanf("%d",&a);
 }
+if(a!=0)
 {
-if(a%=0)
+if(a%2=0)
 {
 printf("even");
 }
+else
 {
-else("odd");
+  printf("odd");
+}
+else
+{
+  printf("invalid");
 }
 }
 getch();
